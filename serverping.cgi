@@ -9,7 +9,7 @@ echo "<h1> SERVER PINGS   </h1>"
 
 echo ""
 
-#echo "10.184.36.130 ecmtest.idc.oracle.com          VM-SERVER   STERIN  SWITCH-VACANT  Expired"
+
 #echo "             IP            HOSTNAME                        Machine     Owner   Location       Staus  "
 
 FILENAME=/tmp/cgi`date +%m%d%Y_%H%M%S` 
@@ -55,11 +55,11 @@ cat  $FILENAME
 echo "</pre>"
 
 
-echo " <a href="http://10.184.36.141/cgi-bin/vmserver.cgi">VNC PORT OF VM IMAGES  <a> "
+echo " <a href="http://IP/cgi-bin/vmserver.cgi">VNC PORT OF VM IMAGES  <a> "
 
 echo " <pre>                            </pre>"
 
-echo " <a href="http://10.184.36.141/cgi-bin/serverping.cgi">PING SERVER  <a> "
+echo " <a href="http://IP1/cgi-bin/serverping.cgi">PING SERVER  <a> "
 
 
 
