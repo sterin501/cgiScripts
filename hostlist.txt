@@ -1,0 +1,17 @@
+_________________________________________________VM SERVERs_________________________________________________________
+
+10.111.111.111    apptest.company.com           VM-SERVER   STERIN      SWITCH-8A390    Expired    .
+10.111.111.112    appvmserver.company.com       VM-SERVER   STERIN      SWITCH-8A390    Expired    .
+
+
+________________________________________________LINUX MACHINES______________________________________________________
+
+
+10.111.111.113    apptest2.company.com          LINX-OEL5   STERIN      SWITCH-SRINATH  Expired    .
+10.111.111.114    apptest3.company.com          LINX-OEL6   STERIN      STERIN          Expired    .
+
+_________________________________________________WINDOWS MACHINE___________________________________________________
+
+
+10.111.111.115    appr2.company.com             2008-R2     REVANTH     HYD             IN-WARANTY .
+10.111.111.116    appwin7.company.com           WIN-7       SRINATH     8A-387          Expired    .
