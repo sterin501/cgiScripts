@@ -12,7 +12,7 @@ echo ""
 
 FILENAME=/tmp/cgi`date +%m%d%Y_%H%M%S` 
 
-SERVERS="10.184.36.29 10.184.36.139 10.184.36.133 10.184.36.127 10.184.36.148"
+SERVERS="master.comapany.com datanode.company.com"
 USR="root"
 
 
@@ -42,12 +42,12 @@ echo "</pre>"
 
 echo " "
 
-echo " <a href="http://10.184.36.141/cgi-bin/vmserver.cgi">VNC PORT OF VM IMAGES  <a> "
+echo " <a href="http://IP/cgi-bin/vmserver.cgi">VNC PORT OF VM IMAGES  <a> "
 
 
 echo " <pre>                            </pre>"
 
-echo " <a href="http://10.184.36.141/cgi-bin/serverping.cgi">PING SERVER  <a> "
+echo " <a href="http://IP/cgi-bin/serverping.cgi">PING SERVER  <a> "
 
 echo "</body></html>"
 
